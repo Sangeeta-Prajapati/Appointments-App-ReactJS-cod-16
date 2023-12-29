@@ -36,6 +36,7 @@
 
 .add-appointment-container {
   display: flex;
+  font-family: 'roboto';
   justify-content: space-between;
   align-items: center;
   width: 100%;

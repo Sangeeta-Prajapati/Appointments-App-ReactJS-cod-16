@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.list-items {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-items {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 32px;
+    min-width: 297px;
+  }
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: #171f46;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .list-title-heading {
+    font-size: 18px;
+  }
+}
+
+.star-button {
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .star {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.date {
+  color: #7e858e;
+  font-size: 12px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .date {
+    font-size: 16px;
+  }
+}
